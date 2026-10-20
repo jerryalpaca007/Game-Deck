@@ -1,1 +1,19 @@
+# Environment variables — never commit secrets
 .env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS noise
+.DS_Store
